@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="coronavirus">
+  <meta name="author" content="rezwanul">
+
+  <title>COVID-19 Tracker</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Covid 19 Live Stats</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <div class="row">
+      <div>
+        <h1 class="mt-2 col-md-12 offset-3 justify-center" id="title">COVID-19 Live Tracker of Bangladesh</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-md-8 offset-4 text-center">
+        
+        <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Population</h6>
+                <p id="population" class="card-text">0</p>
+              </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Cases</h6>
+                <p id="cases" class="card-text">0</p>
+              </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Deaths</h6>
+                <p id="deaths" class="card-text">0</p>
+              </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Last Updated</h6>
+                <p id="date" class="card-text">0</p>
+              </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Percentage of Death</h6>
+                <p id="percent" class="card-text">0</p>
+              </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="footer">Created by Sheikh Rezwanul I. | API used by <a target="_blank" href="https://systems.jhu.edu/research/public-health/ncov/">Johns Hopkins University</a></footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="app.js"></script>
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
